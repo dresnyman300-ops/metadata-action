@@ -1,27 +1,3 @@
-[![GitHub release](https://img.shields.io/github/release/docker/metadata-action.svg?style=flat-square)](https://github.com/docker/metadata-action/releases/latest)
-[![GitHub marketplace](https://img.shields.io/badge/marketplace-docker--metadata--action-blue?logo=github&style=flat-square)](https://github.com/marketplace/actions/docker-metadata-action)
-[![CI workflow](https://img.shields.io/github/actions/workflow/status/docker/metadata-action/ci.yml?branch=master&label=ci&logo=github&style=flat-square)](https://github.com/docker/metadata-action/actions?workflow=ci)
-[![Test workflow](https://img.shields.io/github/actions/workflow/status/docker/metadata-action/test.yml?branch=master&label=test&logo=github&style=flat-square)](https://github.com/docker/metadata-action/actions?workflow=test)
-[![Codecov](https://img.shields.io/codecov/c/github/docker/metadata-action?logo=codecov&style=flat-square)](https://codecov.io/gh/docker/metadata-action)
-
-## About
-
-GitHub Action to extract metadata from Git reference and GitHub events. This action
-is particularly useful if used with [Docker Build Push](https://github.com/docker/build-push-action)
-action to tag and label Docker images.
-
-![Screenshot](.github/metadata-action.png)
-
-___
-
-* [Usage](#usage)
-  * [Basic](#basic)
-  * [Semver](#semver)
-  * [Bake definition](#bake-definition)
-* [Customizing](#customizing)
-  * [inputs](#inputs)
-  * [outputs](#outputs)
-  * [environment variables](#environment-variables)
 * [`context` input](#context-input)
 * [`images` input](#images-input)
 * [`flavor` input](#flavor-input)
